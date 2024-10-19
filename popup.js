@@ -1,8 +1,6 @@
 const terminal = new Terminal();
 import { IP_ADD } from './CONST.js';
 
-terminal.write('Welcome to the remote terminal!\r\n');
-
 terminal.open(document.getElementById('terminal'));
 
 const ws = new WebSocket(`ws://${IP_ADD}:8080`);
