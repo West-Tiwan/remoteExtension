@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terminal</title>
+    <link rel="stylesheet" href="libs/xterm.css" />
+    <style>
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #terminal {
+            width: 100%;
+            height: 100%;
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="terminal"></div>
+    <script src="libs/xterm.min.js"></script>
+    <script type="module" src="popup.js"></script>
+</body>
+
+</html>

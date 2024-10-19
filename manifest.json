@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "remoteExtension",
+    "version": "1.0",
+    "permissions": [
+      "storage",
+      "activeTab"
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "icons": {
+      "16": "images/logox16.png",
+      "48": "images/logox48.png",
+      "128": "images/logox128.png"
+    },
+    "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self'"
+    }
+  }
+  
